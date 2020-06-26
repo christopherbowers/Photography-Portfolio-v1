@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="0.92">
+
+<channel>
+	
+	<item>
+	<title>Domain Change</title>
+	<description>Having a common name has been a bit of a pain for domains. But luckily I just recently purchased christopherbowers.net and today set it all up. The 301 redirect allows all my old links to redirect to the new domain so the tranistion should be smooth.</description>
+	<link>http://christopherbowers.net</link>
+	</item>
+
+	<title>PermanentFocus - The photography of Christopher Bowers</title>
+	<description>The photography of Christopher Bowers</description>
+	<link>http://permanentfocus.com/</link>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en</language>
+	
+	<item>
+	<title>New Work</title>
+	<description>All of my newer work has been added to my site.</description>
+	<link>http://permanentfocus.com/</link>
+	</item>
+	<item>
+	
+	<item>
+	<title>A Few Tweaks</title>
+	<description>I was starting to dislike how the list of project was getting long enough that you couldn't see them all at once. To solve this made them flow into two columns. If you are browsing on an iPhone/iPod Touch the single column still remains.</description>
+	<link>http://permanentfocus.com/</link>
+	</item>
+	<item>
+		
+	<title>Stere-O Typ-O</title>
+	<description>The video piece I made for the Stere-O Typ-O show opeing at Gallery 303 is now up.</description>
+	<link>http://permanentfocus.com/stere-o_typ-o.php</link>
+	</item>
+	
+	<item>
+	<title>Swings I've Known</title>
+	<description>Swings I've Known</description>
+	<link>http://permanentfocus.com/swings_ive_known.php</link>
+	</item>
+	
+	<item>
+	<title>Jack McCloud</title>
+	<description>Jack McCloud</description>
+	<link>http://permanentfocus.com/jack_mccloud.php</link>
+	</item>
+	
+	<item>
+	<title>Ghost Bike (working title)</title>
+	<description>Ghost Bike (working title)</description>
+	<link>http://permanentfocus.com/ghost_bike.php</link>
+	</item>
+
+</channel>
+
+</rss>

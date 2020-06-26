@@ -1,0 +1,59 @@
+Change Log
+Permanentfocus.com
+Christopher Bowers
+
+2009-08-19
+----------
+- Changed domain to christopherbowers.net
+
+2009-04-09
+----------
+- Added all new work
+
+2008-11-16
+----------
+- Changed Ghost Bike video to be flash
+- kept QuickTime for iPhone
+
+2008-11-02
+----------
+- Change homepage to have 2 columns
+- added iPhone specific css to keep single column and zoom to fit
+
+2008-08-24
+----------
+- Added RSS feed for update syndicaton
+
+2008-07-12
+----------
+- Added Swings
+
+2008-05-27
+----------
+- Created touch icon
+
+2008-04-30
+----------
+- added Jack McCloud
+- Temporay captioning
+- added a better mod_rewrite
+- removed ../ from paths
+
+2008-03-14
+----------
+- Moved head.php include to not include
+- minor css clean up
+
+2008-02-13
+----------
+- Moved around the Fancy Zoom files
+- mod_rewrite to get rid of .php
+
+2008-01-15
+----------
+- Added iPhone icon
+- Viewport for iPhone
+
+2008-01-11
+----------
+- Added Google Analytics

@@ -1,0 +1,229 @@
+/*-----------------------------------------------
+Author: Christopher Bowers
+Site: http://permanentfocus.com/
+Name: Mosaic
+Date: 23 August 2007
+----------------------------------------------- */
+
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	padding: 10px 0 20px 0;
+	font-family: "HelveticaNeue-Light", Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #000;
+	background: #fff url(../i/bg.png) repeat-x;
+	text-align: center;
+}
+
+body#main {
+	margin-top: 20px;
+}
+
+body#index {
+	margin-top: 40px;
+}
+
+#container {
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+/* =Typography
+----------------------------------------------- */
+
+a {	text-decoration: none;}
+
+h1, h2 { color: #333; }
+
+h1 { font-size: 2.8em;}
+
+h2 { font-size: 1.4em;}
+
+strong { font-weight: bold;}
+
+.title {
+	padding: 0 0 10px 0;
+	color: #333;
+	font-size: 2em;
+}
+
+.caption {
+	padding: 20px 100px;
+	font-size: 1.2em;
+	color: #333;
+/* 	line-height: 1.6em; */
+}
+
+em { font-style: italic;}
+
+/* p { font-size: 1.2em;} */
+
+.sosumi {
+	padding: 20px 0 0 0;
+	font-size: 1.2em;
+	color: #aaa;
+	line-height: 1.4em;
+	clear: both;
+}
+
+span.sosumi { color: #666;}
+
+.sosumi a {
+	color: #666;
+}
+
+.sosumi a:hover {
+	color: #333;
+}
+
+body#index a {
+	font-size: 1.1em;
+	color: #333;
+}
+
+body#index a:hover {
+	font-size: 1.1em;
+	color: #666;
+}
+
+body#index img {
+	padding: 10px 0;
+}
+/* =Main Page Selection
+----------------------------------------------- */
+
+#selection {
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 610px;
+	height: 100%;
+	text-align: center;
+}
+
+#selection li {
+	width: 300px;
+	float: left;
+	padding: 0 5px 10px 5px;
+}
+
+#selection ul {
+	float: left;
+	width: 620px;
+}
+
+#selection a {
+	background-position: 0 0;
+	height: 100px;
+	width: 300px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+#selection a:hover {
+	background-position: 0 -100px;
+}
+
+.swings a {
+	background: #fff url(../i/swings_ive_known.png) no-repeat;
+}
+
+.stere-o a {
+	background: #fff url(../i/stere-o_typ-o.png) no-repeat;
+}
+
+.ghost-bike a {
+	background: #fff url(../i/ghost_bike.png) no-repeat;
+}
+
+.jack-mccloud a {
+	background: #fff url(../i/jackmccloud.png) no-repeat;
+}
+
+.benches a {
+	background: #fff url(../i/benches.png) no-repeat;
+}
+
+.the-next-frame a {
+	background: #fff url(../i/thenextframe.png) no-repeat;
+}
+
+.follow-me a {
+	background: #fff url(../i/followme.png) no-repeat;
+}
+
+.architecture a {
+	background: #fff url(../i/architecture.png) no-repeat;
+	height: 50px;
+}
+
+.stunts a {
+	background: #fff url(../i/stunts.png) no-repeat;
+	height: 50px;
+}
+
+.constant a {
+	background: #fff url(../i/constant_illuminations.png) no-repeat;
+	height: 50px;
+}
+
+.brother a {
+	background: #fff url(../i/my_brothers_family.png) no-repeat;
+	height: 50px;
+}
+
+/* =Mosaic
+----------------------------------------------- */
+
+#mosaic {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+.four {
+	width: 655px;
+}
+
+.three {
+	width: 490px;
+}
+
+#mosaic img {
+	padding: 5px;
+}
+
+
+.flash {
+	padding: 20px 0 0 0;
+}
+
+.movie {
+	visibility: hidden;
+	height: 0px;
+}
+
+
+
+
+
+/* =Navigation
+----------------------------------------------- */
+
+#navigation li {
+    font-size: 1.4em;
+	padding: 0 8px;
+}
+
+#navigation li a {
+    color: #888;
+
+}
+
+#navigation li a:hover {
+	color: #333;
+}
+

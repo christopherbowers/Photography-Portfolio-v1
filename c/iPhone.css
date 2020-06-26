@@ -1,0 +1,49 @@
+/* Removes multiple columns for iPhone display */
+
+body {
+	padding: 5px 0 10px 0;
+	font-size: 80%;
+}
+
+body#main {
+	margin-top: 0;
+	font-size: 62.5%;
+}
+
+.title {
+	padding: 0;
+}
+
+#selection {
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+}
+
+#selection li {
+	width: 300px;
+	float: none;
+	padding: 0 0 10px 0;
+}
+
+#selection ul {
+	float: none;
+	width: 300px;
+}
+
+.sosumi { 
+	width: 270px;
+	margin: 0 auto;
+}
+
+.flash {
+	visibility: hidden;
+}
+
+.movie {
+	padding: 20px 0 0 0;
+	height: 270px;
+	visibility: visible;
+}

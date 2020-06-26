@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>{Title}</title>
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss"/>
+	<meta name="viewport" content="width=600"/>
+
+	<style type="text/css">
+		body {
+			background: #161c25;
+			margin: 0px 0px 25px 0px;
+			padding-left: 62px;
+			font: normal 11px/16px "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+			color: #afaea3;
+			text-shadow: #222 1px 1px 2px;
+		 }
+
+		#container {
+			width: 528px;
+			padding: 30px 25px 0px 13px;
+			float: left;
+			clear: both;
+		}
+
+		img#rss {
+			width: 36px;
+			height: 19px;
+			border-width: 0px;
+			float: right;
+			margin-left: 30px;
+			margin-bottom: 0px;
+		}
+
+		h1 {
+			color: #f0f0f0;
+			margin: 0px 0px 3px 0px;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: normal;
+			font-size: 22px;
+			line-height: 20px;
+			letter-spacing: 0px;
+		}
+
+		h1 a {
+			color: #f0f0f0;
+			text-decoration: none;
+		}
+
+		 #description {
+			color: #606060;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 22px;
+			line-height: 20px;
+			margin-bottom: 0px;
+		 }
+
+		 .date {
+			margin: 30px 0px 30px 0px;
+			color: #6d6d6d;
+			text-align: left;
+			letter-spacing: 0px;
+		 }
+
+		 div.post {
+			margin-bottom: 18px;
+			padding-bottom: 18px;
+			padding-right: 14px;
+			width: 540px;
+			position: relative;
+			/*background-image: url(http://permanentfocus.com/blog/rule.gif);*/
+			background-repeat: no-repeat;
+			background-position: 0px bottom;
+			float: left;
+			clear: both;
+		}
+
+		 div.post img.permalink {
+			border-width: 0px;
+			width: 23px;
+			height: 9px;
+			position: absolute;
+			top: 3px;
+			right: 0px;
+			display: none;
+		}
+
+			div.post:hover img.permalink {
+				display: block;
+			}
+
+		div.post h2 {
+			font-size: 11px;
+			font-weight: bold;
+			color: #f0f0f0;
+			margin: 0px 0px 0px 0px;
+		}
+
+		div.post h2 a:link, div.post h2 a:visited {
+			color: #f0f0f0;
+			text-decoration: none;
+		}
+		div.post h2 a:hover, div.post h2 a:active {
+			text-decoration: underline;
+			color: white;
+		}
+
+		div.post b {
+		 color: #b3b3b3;
+		}
+
+		a {
+			color: #939393;
+			text-decoration: underline;
+		}
+
+		a:hover {
+			color: white;
+		}
+
+		a img {
+			border: 1px solid #6d6d6d;
+		}
+
+		/* Regular Post */
+		div.post div.regular {
+			padding-left: 28px;
+			background-image: url(http://permanentfocus.com/blog/regular.gif);
+			background-repeat: no-repeat;
+			background-position: 2px 0px;
+		}
+
+		div.post blockquote {
+			margin-left: 15px;
+			padding-left: 10px;
+			border-left: 1px solid #6d6d6d;
+		}
+		
+		/* Quick Tip */
+		div.post div.regular.tip {
+			padding-left: 28px;
+			background-image: url(http://permanentfocus.com/blog/review.gif);
+			background-repeat: no-repeat;
+			background-position: 2px 0px;
+		}
+		
+		/* Photo Post */
+		div.post div.photo {
+			padding-left: 28px;	
+		}
+		
+		div.post div.photo {
+			padding: 0px 30px 0px 28px;
+			width: 350px;
+			background-image: url(http://permanentfocus.com/blog/photo.gif);
+			background-repeat: no-repeat;
+			background-position: 0px 1px;
+		}
+		
+		div.post div.photo img {
+			border-width: 0px;
+		}
+
+		div.post div.photo .caption b {
+			color: #f0f0f0;
+		}
+
+		div.post div.photo div.caption {
+			font-size: 11px;
+			font-weight: normal;
+			margin-bottom: 5px;
+			color: #939393;
+		}
+		
+		div.post div.photo div.caption a {
+			color: #939393;
+		}
+		
+		/* Quote Post */
+		div.post div.quote {
+			padding: 0px 30px 0px 28px;
+			width: 350px;
+			background-image: url(http://permanentfocus.com/blog/quote.gif);
+			background-repeat: no-repeat;
+			background-position: 2px 1px;
+		}
+		
+			div.post div.quote span.quote {
+				font-size: 11px;
+				color: #f0f0f0;
+			}
+
+				div.post div.quote span.quote a {
+					color: #939393;
+				}
+
+				
+				div.post div.quote span.quote a:hover {
+					color: white;
+				}
+				
+				div.post div.quote span.quote big.quote {
+					font: Bold 30px Georgia, serif;
+					line-height: 1px;
+					vertical-align: -8px;
+					color: #444;
+				}
+
+					div.post div.quote span.quote big.quote a {
+						text-decoration: none;
+					}
+		
+			div.post div.quote div.source {
+				text-align: right;
+				font-size: 11px;
+				color: #6d6d6d;
+			}
+
+				div.post div.quote div.source a {
+					color: #6d6d6d;
+				}
+		
+		/* Link Post */
+		div.post div.link {
+			padding-left: 28px;
+			background-image: url(http://permanentfocus.com/blog/link.gif);
+			background-repeat: no-repeat;
+			background-position: 0px 1px;
+			color: #f0f0f0;
+		}
+		
+			div.post div.link a.link {
+				color: #f0f0f0;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+			div.post div.link a.link:hover {
+				text-decoration: underline;
+				color: white;
+			}
+
+			div.post div.link div.description {
+				color: #939393;
+			}
+		
+		/* Conversation Post */
+		div.post div.conversation {
+			background-image: url(http://permanentfocus.com/blog/chat.gif);
+			background-repeat: no-repeat;
+			background-position: 0px 3px;
+			padding-left: 28px;
+		}
+
+		div.post div.conversation ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+			div.post div.conversation ul li {
+				/*padding: 4px 0px 4px 8px;*/
+				/*color: #939393;*/
+				/*margin-bottom: 1px;*/
+			}
+		
+				div.post div.conversation ul li span.label {
+					font-weight: bold;
+					color: #f0f0f0;
+				}
+
+				div.post div.conversation ul li.even span.label {
+					font-weight: bold;
+					color: #b0b0b0;
+				}
+		
+				div.post div.conversation ul li.odd {
+					color: #939393;
+				}
+		
+				div.post div.conversation ul li.even {
+					color: #707070
+				}
+		
+		/* Video Post */
+		div.post div.video div.caption {
+			padding-left: 28px;
+			margin-top: 5px;
+			color: #939393;
+			font-size: 11px;
+			font-weight: bold;
+		}
+		
+			div.post div.video div.caption a {
+				color: #939393;
+			}
+			
+		#header {
+			padding-left: 28px;	
+			margin-bottom: 60px;
+			float: left;
+			clear: both;
+			width: 500px;
+		}
+
+		#navigation {
+			padding-left: 28px;
+			float: left;
+			clear: both;
+		}
+
+			#navigation a {
+				color: #f0f0f0;
+				text-decoration: none;
+			}
+
+			#navigation a:hover {
+				text-decoration: underline;
+			}
+
+		#footer {
+		 	width: 500px;
+			margin: 45px 0px 0px 18px;
+			padding: 0px 0px 30px 22px;
+			font-size: 11px;
+			color: #6d6d6d;
+			float: left;
+			clear: both;
+		}
+		 
+			#footer p a {
+				color: #999;
+				text-decoration: none;
+			}
+
+
+			#footer p a:hover {
+				color: white;
+			}
+
+.pipe {
+	width: 1px;
+	height: 16px;
+	margin: 0px 5px;
+}
+
+.subtle {
+color:#444;
+}
+
+ol {
+margin: 16px 0px 0px -23px;
+}
+li {
+
+}
+
+img.big {
+margin: 5px 10px 10px 0px;
+float: left;
+}
+
+.navi {
+ margin-top: 20px;
+ margin-left: -6px;
+}
+
+.navi a {
+	padding: 3px 6px;
+}
+ 
+ .navi a {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+ }
+.navi a:hover {
+	color: white;	 
+}
+
+#latest {
+	margin: 0px 0px 30px 28px;
+	padding: 10px 10px;
+	width: 480px;
+	float: left;
+	clear: both;
+}
+#latest .icon {
+	margin-right: 10px;	
+}
+#latest h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;	
+	font-weight: normal;
+	margin: 3px 0px 5px 0px;
+}
+
+#latest h3 a {
+	text-decoration: none; 	
+	color: #f0f0f0;
+}
+#latest a:hover {
+   text-decoration: underline; 		
+}
+
+.yellow { color:#ca8029 }
+.navi a:hover.yellow { background-color:#ca8029; }
+.green { color:#408534 }
+.navi a:hover.green { background-color:#408534; }
+.teal { color:#427f82 }
+.navi a:hover.teal { background-color:#427f82; }
+.red { color:#a62510 }
+.navi a:hover.red { background-color:#a62510; }
+.blue { color:#35528b }
+.navi a:hover.blue { background-color:#35528b; }
+
+</style>
+
+
+<!--[if IE]>
+<style type="text/css">
+	#content div.post div.inner div.date {
+		color: #aaa;
+	}
+</style>
+ <![endif]-->
+</head>
+
+
+
+	<body>
+
+	<div id="container">
+
+		
+		<div id="header">
+			<a href="/rss"><img src="/themes/4/rss.gif" id="rss" alt="RSS"/></a>
+			
+			<h1><a href="/">Christopher&#8217;s tumblog</a></h1>
+
+			{block:Description}
+			<div id="description">
+				{Description}
+			</div>
+			{/block:Description}
+			
+		</div>
+
+		<div id="content">
+
+		{block:Posts}
+			<div class="post"><div class="inner">
+
+				<!-- 
+				
+				{Month} {DayOfMonth}, {Year}
+				
+				-->
+
+				{block:Regular}
+				<div class="regular {TagsAsClasses}">
+					{block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+					{Body}
+				</div>
+				{/block:Regular}
+
+
+				{block:Photo}
+				<div class="photo">
+					<div class="caption">{block:Caption}{Caption}{/block:Caption}</div>
+					<img src="{PhotoURL-400}" align="left" alt="{PhotoAlt}"/>
+				</div>
+				{/block:Photo}
+
+
+				{block:Quote}
+				<div class="quote">
+					<span class="quote">{Quote}</span>
+					{block:Source}<div class="source">&mdash; {Source}</div>{/block:Source}
+				</div>
+				{/block:Quote}
+
+
+				{block:Link}	  
+				<div class="link">
+					<a href="{URL}" class="link" {Target}>{Name}</a>
+					{block:Description}
+					<div class="description">{Description}</div>
+					{/block:Description}
+				</div>
+				{/block:Link}
+
+
+				{block:Conversation}				
+				<div class="conversation">
+					{block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+					<ul>
+						{block:Lines}
+						<li>
+						{block:Label}<span class="label">{Label}</span>{/block:Label}
+						{Line}
+						</li>
+						{/block:Lines}
+					</ul>
+				</div>
+				{/block:Conversation}
+
+
+				{block:Audio}					
+					<div class="audio">
+						{AudioPlayerBlack}
+						{block:Caption}
+						<div class="caption">{Caption}</div>
+						{/block:Caption}
+					</div>
+				{/block:Audio}
+				
+				
+				{block:Video}
+				<div class="video">
+						{Video-500}
+						{block:Caption}
+						<div class="caption">{Caption}</div>
+						{/block:Caption}
+					</div>
+				{/block:Video}
+			</div></div>
+			
+		{/block:Posts}
+
+		</div>
+
+		<div id="navigation"><div class="inner">
+		
+			{block:NextPage}
+				<a href="{NextPage}">&larr; Older</a> &nbsp;&nbsp;
+			{/block:NextPage}
+			
+			<!-- {CurrentPage} of {TotalPages} &nbsp;&nbsp; -->
+			
+			{block:PreviousPage}
+				<a href="{PreviousPage}">Newer &rarr;</a>
+			{/block:PreviousPage}
+
+		</div></div>
+
+
+		<div id="footer"><div class="inner">
+			<p id="tic">&nbsp;</p><br style="clear: both" />
+		</div></div>
+
+
+	</body>
+	
+</html>
